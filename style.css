@@ -1,0 +1,62 @@
+.controle-form {
+    margin: 15px;
+}
+
+button[type="submit"]{
+    background-color: #34cc8b;
+    border: none; 
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    box-shadow: 7px 2px 2px; 
+}
+
+button[type="submit"]:hover {
+    background-color: #29a06d;
+    cursor: pointer;
+}
+button[type="submit"]:active {
+    box-shadow: inset 1px 1px 2px #444;
+}
+
+
+button[type="reset"]{
+    background-color: #f1186c71;
+    border: none; 
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #f1f1f1ea;
+    box-shadow: 7px 2px 2px; 
+}
+
+button[type="reset"]:hover {
+    background-color: #0b0218;
+    cursor: pointer;
+}
+button[type="reset"]:active {
+    box-shadow: inset 1px 1px 2px #18171a;
+}
+
+button[type="Disable"]{
+    background-color: #aea6daf5;
+    border: none;
+    cursor: not-allowed; 
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #e7e7df;
+    box-shadow: 7px 2px 2px; 
+    
+}
+
+button[type="Disable"]:hover {
+    background-color: #daa6baf5;
+    cursor: pointer;
+}
+button[type="Disable"]:active {
+    box-shadow: inset 1px 1px 2px #1c1f1c2c;
+}
+
+
+
+
+
