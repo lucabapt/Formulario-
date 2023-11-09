@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario HTML</title>
+    <title>Abreviação/title>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="emmet" href="./emmet.html">
 
 
 
@@ -13,6 +14,67 @@
 <body>
     <form action="">
 
+        <a href="./emmet.html">TESTE</a>
+
+
+
+        <fieldset>
+
+        <legend>Turno:</legend>
+
+        <div class="controle-form">
+            <input type="radio" id="manha" name="turno" name="turno">
+            <label for="Manhã">Manhã</label>
+        </div>
+
+        <div class="controle-form">
+            <input type="radio" id="tarde" name="turno" name="turno">
+            <label for="Tarde">Tarde</label>
+        </div>
+
+        <div class="controle-form">
+            <input type="radio" id="noite" name="turno" name="turno">
+            <label for="Noite">Noite</label>
+        </div>
+
+        </fieldset>
+
+
+        <fieldset>
+
+        <div class="controle-form">
+            <label for="pais">País:</label>
+            <select id="País">
+                <option value="AF">Afeganistão</option>
+                <option value="AR">Argentina</option>
+                <option value="BR" selected>Brasil</option>
+                <option value="BU">Butão</option>
+                <option value="CA">Canadá</option>
+                <option value="US">Estados Unidos</option>
+                <option value="PA">Paraguai</option>
+                <option value="RU" disable>Russia</option> disable
+            </select>
+        </div>
+
+        <div class="controle-form">
+            <label for="uf">UF</label>
+            <input list="ListaUF" id="uf">
+        </div>
+
+        <datalist id="ListaUF">
+            <option value="SP">São Paulo </option>
+            <option value="RJ">Rio de Janeiro </option>
+            <option value="PA">Pará </option>
+
+        </datalist>
+        
+        </fieldset>
+
+
+        <div class="controle-form">
+            <label for="volume">Volume:</label>
+            <input type="range" id="volume" min="0" max="100" step="10">
+        </div>
 
         <div class="controle-form">
             <label for="Data de Cadastro">Data de Cadastro</label>
